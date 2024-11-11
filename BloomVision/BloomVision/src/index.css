@@ -1,0 +1,325 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar-container
+{
+    Padding-top:16px;
+    padding-right: 120px;
+    padding-bottom:16px;
+    padding-Left:120px;
+    Width:1,512px;
+height:72px;
+}
+.imgs{
+width:196px;
+height:196px;
+}
+
+.imgs-container
+{
+  display: flex;
+width:846px;
+height:266px;
+top:112px;
+left:333px;
+gap:24px;
+align-items: center;
+}
+.img-dashboard
+{
+  margin: 62px;
+  margin-left: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-text
+{
+width:420px;
+height:251px;
+top:426px;
+left:546px;
+gap:24px;
+text-align: center;
+margin: 20px;
+margin-right: 222px;
+}
+
+.login-container
+{
+width:439px;
+height:424px;
+top:158px;
+gap:24px;
+margin: 110px;
+}
+.login-img
+{
+  width:560px;
+  height:560px;
+  top:110px;
+  left:832px;
+  margin: 110px;
+  margin-left: 416px;
+}
+
+.login-btn
+{
+  padding:13px;
+  background-color: #a8b78a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+}
+.google-btn
+{
+  padding:13px;
+  background-color: #a8b78a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 222px;
+  gap: 6px;
+}
+label{
+  display: 'flex';
+   margin:0;
+}
+  .separator {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+}
+.action-buttons {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  align-items: flex-start;
+}
+
+.message {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+.signup-container
+{
+  width:447px;
+  height:539px;
+  top:158px;
+  left:120px;
+  gap:24px;
+}
+
+.signup-image
+{
+width:560px;
+ height: 560px;
+  top:134px;
+  left:832px;
+  margin-left: 416px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 442px;
+  
+} 
+.google-btn
+{
+  display:flex;
+  margin-top:2 ;
+  margin-bottom:5;
+  gap:2;
+  background-color:black;
+  width: 442px;
+}
+.hub{
+  display:flex;
+  flex-direction: column;
+  align-items: self-start;
+  margin-left: 21px;
+  margin-top: 7px;
+}
+button {
+  padding:13px;
+  background-color: #a8b78a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 442px;
+}
+
+.green
+{
+ color: #93a573
+}
+/* input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+} */
+
+
+.message {
+  font-size: 14px;
+  color: #d9534f;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: #5cb85c;
+}
+
+.form-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+a {
+  color: #6c757d;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
+.recoverPassword,.recover-username
+{
+margin-top: 90px; 
+padding: 90px;
+color:black;
+width:439px;
+height:223px;
+top:279px;
+left:120px;
+gap:24px;
+}
+.recover-username-header
+{
+  width: 439px;
+   height:59px; 
+   gap:8px;
+}
+.send-user-btn
+{
+width:439px;
+height:46px;
+
+}
+.resetP
+{
+  margin:150px;
+  padding: 40px;
+}
+.resetPassword
+{
+width:439px;
+height:279px;
+top:250px;
+left:120px;
+gap:24px;
+margin: 180px;
+}
+.account-recovery
+{
+width:452px;
+height:88px;
+top:207px;
+left:120px;
+margin-left:120px;
+margin-top:20px;
+}
+.account-recovery-header
+{
+width:206px;
+height:29px;
+top:90px;
+left:120px;
+margin-top:220px;
+margin-left: 112px;
+}
